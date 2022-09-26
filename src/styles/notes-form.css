@@ -1,0 +1,56 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkslategrey;
+}
+.notes-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+}
+label {
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  font-size: 25px;
+}
+
+.title {
+  width: 800px;
+  height: 40px;
+  display: flex;
+  margin: 0 auto;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.text {
+  width: 800px;
+  height: 60px;
+  display: flex;
+  margin: 0 auto;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+button {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: blanchedalmond;
+  border: none;
+  font-weight: bold;
+}
+
+ul {
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
